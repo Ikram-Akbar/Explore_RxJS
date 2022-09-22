@@ -12,6 +12,4 @@ const pureObservable = new rxjs_1.Observable(function subscribe(subscriber) {
 });
 pureObservable.subscribe((val) => {
     console.log(val);
-    if (val === 5000)
-        return clearInterval(val);
 });
